@@ -1,0 +1,36 @@
+.timer {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+}
+
+.timer-value {
+    font-size: 25px;
+}
+
+.button {
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+    text-align: center;
+    line-height: 30px;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.start {
+    background-color: #32cd32;
+}
+
+.stop {
+    background-color: #8b0000;
+    color: #ffffff;
+}
+
+.interval {
+    background-color: #7cfc00;
+}
+
+.reset {
+    background-color: #ff8c00;
+}
