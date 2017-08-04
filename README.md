@@ -1,9 +1,9 @@
-Binary Studio Academy 2017. React JS Task
+Binary Studio Academy 2017. React JS Task 2
 ====
 
 ### Установка и запуск:
 
-  - склонировать репозиторий `git clone https://github.com/ruig1992/bsa-2017-js-react.git`
+  - склонировать репозиторий `git clone https://github.com/ruig1992/bsa-2017-js-react-2.git`
   - в консоли ввести `npm install` для установки зависимостей проекта
   - для запуска ввести `npm start`, открыть в браузере http://localhost:3000/
 
