@@ -4,6 +4,7 @@ class Section extends Component {
 
   constructor(props) {
     super(props);
+
     this.state = {
       className: this.props.className || ''
     }
@@ -24,4 +25,4 @@ Section.propTypes = {
   className: React.PropTypes.string
 };
 
-export default Section
+export default Section;

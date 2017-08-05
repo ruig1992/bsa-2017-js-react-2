@@ -1,10 +1,11 @@
-import React, { Component } from 'react';
+import React, { Component, PropTypes } from 'react';
 import { ListGroupItem, Button } from 'reactstrap';
 
 class UserItem extends Component {
 
   constructor(props) {
     super(props);
+
     this.deleteUser = this.deleteUser.bind(this, this.props.user.id);
   }
 
@@ -26,8 +27,8 @@ class UserItem extends Component {
 }
 
 UserItem.propTypes = {
-  user: React.PropTypes.object,
-  onDelete: React.PropTypes.func,
+  user: PropTypes.object,
+  onDelete: PropTypes.func,
 };
 
 export default UserItem;
